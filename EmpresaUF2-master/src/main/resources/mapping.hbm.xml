@@ -1,0 +1,16 @@
+<hibernate-mapping>
+	<class name="model.Employees" table="employees">
+		<id column="emp_no" name="emp_no"></id>
+		<property column="last_name" name="last_name"></property>
+		<property column="first_name" name="first_name"></property>
+		<property column="birth_date" name="birth_date"></property>
+		<property column="gender" name="gender"></property>
+		<property column="hire_date" name="hire_date"></property>
+		<property column="role" name="role"></property>
+		<property column="salary" name="salary"></property></class>
+	<class name="model.Departments" table="departaments">
+		<id column="deptno" name="deptno"></id>
+		<property column="deptname" name="deptname"></property>
+		<property column="location" name="location"></property>
+	</class>
+</hibernate-mapping>
